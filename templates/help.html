@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='flasky.css') }}" type="text/css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+		<div class="body">
+			<h1>Oh-No-Data Help!</h1>
+			<p>Oh-No-Data ist eine extrem einfach zu nutzende API um Daten mit einem zeitlichen Bezug zu 
+				speichern und zu visualisieren. Ganz ohne Anmeldung kannst du Daten mittels URL Request
+				 Daten in deinen persönlichen Datentopf schreiben.  </p>
+			<h2>api-key</h2>
+			<p>Oh-No-Data steht jedem offen. Um Daten hochladen zu können musst du einen api-key benutzen, 
+			damit die Daten auch im richtigen Topf landen. Ein api-key besteht aus 2 Teilen. dem öffentlichen 
+			Namen des Topfes und einem geheimen Schlüssel. Also z.B. ServerTemp-Cobwiut5ti. Dein Datentopf 
+			heißt dann ServerTemp und der Schlüssel ist Cobwiut5ti. Du kannst dir nach belieben Namen für 
+			Datentöpfe ausdenken die du nutzen möchtest. Bei der ersten Nutzung wird der Topf angelegt und 
+			mit dem Schlüssel versehen. Wer also einen Topf zuerst anlegt, der bestimmt den Schlüssel! Ein 
+			Schlüssel kann aus belibigen Zeichen bestehen. Das erste - Trennt den Namen vom Schlüssel. Es 
+			muss ein Schlüssel angegeben werden.</p>
+			<h2>API Methods</h2>
+			<h3>ToDo</h3>
+			<p>http://xxx/oh-no-data/'api-key'/addValue/'value'</p>
+			<p>http://xxx/oh-no-data/'api-key'/delete</p>
+			<p>http://xxx/oh-no-data/'api-key'/addValueForTime/'value'/'timestamp'</p>
+			<p>http://xxx/oh-no-data/'api-key'/getAll</p>
+			<p>http://xxx/oh-no-data/'api-key'/get/'form'/'to'</p>
+			<p>http://xxx/oh-no-data/'api-key'/addManny/JSON ALS !!POST!!</p>
+			<p>http://xxx/oh-no-data/'api-key'/etc</p>
+		</div>
+	</body>
+</html>

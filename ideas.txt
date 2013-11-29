@@ -1,0 +1,24 @@
+daten hoch
+
+
+daten und datum hoch
+
+darstellung  hichars
+
+darstellung highstocks
+
+datensätze laden mit filer von bis
+
+graphen mit filter von bis
+
+
+JSON
+overlay mehrere graphen übereinander (z.B. tastatur und Maus)
+					   Temperatur und CPU last
+
+JSON
+push von listen
+
+
+
+
